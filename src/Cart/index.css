@@ -1,0 +1,9 @@
+.cartCard {
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width:601px) {
+    .cartCard{
+        margin-right: 3px;
+    }
+  }

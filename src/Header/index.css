@@ -1,0 +1,111 @@
+.headerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+  .LogoContainer {
+    display: flex;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .HomeLogoContainer{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .headerE {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .headerEn {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .headerCart {
+    margin-right: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  .productsHomeCard {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  .lapHome{
+    display: block;
+  }
+
+  .lapProduct{
+    display: block;
+  }
+
+  .lapCart{
+    display: block;
+  }
+
+  @media screen and (max-width:600px) {
+    .LogoContainer{
+        display: none;
+    }
+    .lapCart{
+        display: none;
+    }
+    .lapProduct{
+        display: none;
+    }
+    .lapHome{
+        display: none;
+    }
+    .HomeCart{
+        margin-left:3px;
+    }
+    .HomeProduct{
+        margin: 3px;
+    }
+    .HomeHome{
+        margin: 3px;
+    }
+    
+  }
+  .HomeHomeCart{
+    color: white;
+  }
+  .HomeHome{
+    display: block;
+  }
+  
+  @media screen and (min-width:601px) {
+    .HomeLogoContainer{
+        display: none;
+    }
+    .HomeHome{
+        display: none;
+    }
+    .HomeProduct{
+        display: none;
+    }
+    .HomeCart{
+        display: none;
+    }
+    .CartLength{
+        color: white;
+    }
+  }
+  .HomeLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .CartLength{
+    color: white;
+  }

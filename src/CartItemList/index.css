@@ -1,0 +1,66 @@
+.cartItemsList {
+    display: flex;
+    
+  }
+  .cartItemImage {
+    height: 200px;
+    width: 200px;
+  }
+  .cartItemTitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .cartItemPara {
+    font-size: 15px;
+  }
+  .cartItemCategory {
+    font-size: 15px;
+  }
+  .cartItemPrice {
+    font-weight: bold;
+  }
+  .cartRemoveItem {
+    background-color: transparent;
+    border: none;
+  }
+  .cardDelete {
+    display: flex;
+    margin-left: 5px;
+  }
+  .deleteIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 100px;
+  }
+
+  @media screen and (min-width:600px) {
+    .cartItemsList{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+    }  
+  }
+
+  @media screen and (max-width:601px) {
+    .cartItemsList {
+        display: flex;
+        align-items: center;
+        
+      } 
+    .cartItemImage{
+        height: 100px;
+        width: 100px;
+        margin-right: 4px;
+    }
+    .deleteIcon {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 5px;
+      }
+      .cardDelete {
+        display: flex;
+        margin-left: 10px;
+      }
+  }

@@ -1,0 +1,23 @@
+.emptyCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .emptyimage {
+    margin: auto;
+  }
+
+  @media screen and (max-width:600px) {
+    .emptyCard{
+        margin-top: 150px;
+    }
+    .emptyimage{
+        height: 300px;
+        width: 350px;
+    }
+    .itemMsg{
+        font-size: 20px;
+    }
+}
